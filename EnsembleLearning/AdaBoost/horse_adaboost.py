@@ -135,9 +135,9 @@ def adaClassify(datToClass, classifierArr):
 
 
 if __name__ == '__main__':
-    dataArr, LabelArr = loadDataSet('./Data/horseColicTraining2.txt')
+    dataArr, LabelArr = loadDataSet('./BasicLinearRegressionData/horseColicTraining2.txt')
     weakClassArr, aggClassEst = adaBoostTrainDS(dataArr, LabelArr)
-    testArr, testLabelArr = loadDataSet('./Data/horseColicTest2.txt')
+    testArr, testLabelArr = loadDataSet('./BasicLinearRegressionData/horseColicTest2.txt')
     print(weakClassArr)
     predictions = adaClassify(dataArr, weakClassArr)
     errArr = np.mat(np.ones((len(dataArr), 1)))

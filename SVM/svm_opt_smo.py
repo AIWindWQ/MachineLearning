@@ -291,7 +291,7 @@ def calcWs(alphas,dataArr,classLabels):
 	return w
 
 if __name__ == '__main__':
-	dataArr, classLabels = loadDataSet('./Data/SVMData/testSet.txt')
+	dataArr, classLabels = loadDataSet('./BasicLinearRegressionData/SVMData/testSet.txt')
 	b, alphas = smoP(dataArr, classLabels, 0.6, 0.001, 40)
 	w = calcWs(alphas, dataArr, classLabels)
 	showClassifer(dataArr, classLabels, w, b)

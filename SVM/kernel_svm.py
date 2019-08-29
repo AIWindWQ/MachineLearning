@@ -268,7 +268,7 @@ def testRbf(k1 = 1.3):
 	Returns:
 	    无
 	"""
-	dataArr,labelArr = loadDataSet('./Data/SVMData/testSetRBF.txt')						#加载训练集
+	dataArr,labelArr = loadDataSet('./BasicLinearRegressionData/SVMData/testSetRBF.txt')						#加载训练集
 	b, alphas = smoP(dataArr, labelArr, 200, 0.0001, 100, ('rbf', k1))		#根据训练集计算b和alphas
 	datMat = np.mat(dataArr)
 	labelMat = np.mat(labelArr).transpose()
@@ -284,7 +284,7 @@ def testRbf(k1 = 1.3):
 		if np.sign(predict) != np.sign(labelArr[i]):
 			errorCount += 1		                                            #返回数组中各元素的正负符号，用1和-1表示，并统计错误个数
 	print("训练集错误率: %.2f%%" % ((float(errorCount)/m)*100)) 			#打印错误率
-	dataArr, labelArr = loadDataSet('./Data/SVMData/testSetRBF2.txt') 						#加载测试集
+	dataArr, labelArr = loadDataSet('./BasicLinearRegressionData/SVMData/testSetRBF2.txt') 						#加载测试集
 	errorCount = 0
 	datMat = np.mat(dataArr)
 	labelMat = np.mat(labelArr).transpose()

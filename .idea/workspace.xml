@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52df1da7-5c8f-4197-9f75-e6700b8bb23a" name="Default Changelist" comment="" />
+    <list default="true" id="52df1da7-5c8f-4197-9f75-e6700b8bb23a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/kernel_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/kernel_svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_digit_recognition_with_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_digit_recognition_with_sklearn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_digits_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_digits_recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_opt_smo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_opt_smo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM/svm_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_simple.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,20 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EnsembleLearning/AdaBoost/boosting_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
-              <folding>
-                <element signature="e#22#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +42,12 @@
         <option value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" />
         <option value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" />
         <option value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/local_weight_regression.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_train.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_test.py" />
+        <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/basic_tree.py" />
+        <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_test.py" />
+        <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_train.py" />
       </list>
     </option>
   </component>
@@ -75,6 +77,17 @@
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="EnsembleLearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicLinearRegressionTrain" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -98,8 +111,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.evaluation_index_auc">
-    <configuration name="boosting_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.local_weight_regression">
+    <configuration name="basic_linear_regression_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/boosting_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="evaluation_index_auc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="basic_linear_regression_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="horse_adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="local_weight_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/local_weight_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sklearn_adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="random_forest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/RandomForest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,28 +196,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in kernel_svm.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="random_forest_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/RandomForest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/SVM/kernel_svm.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evaluation_index_auc" />
-        <item itemvalue="Python.sklearn_adaboost" />
-        <item itemvalue="Python.horse_adaboost" />
-        <item itemvalue="Python.boosting_tree" />
-        <item itemvalue="Python tests.pytest in kernel_svm.py" />
+        <item itemvalue="Python.local_weight_regression" />
+        <item itemvalue="Python.basic_linear_regression_test" />
+        <item itemvalue="Python.basic_linear_regression_train" />
+        <item itemvalue="Python.random_forest_test" />
+        <item itemvalue="Python.random_forest_train" />
       </list>
     </recent_temporary>
   </component>
@@ -239,16 +258,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291592" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291592" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3291592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,12 +361,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Anaconda/Lib/_bootlocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="2075" selection-start-line="2075" selection-end-line="2075" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/Data/train_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/Data/test_data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/EnsembleLearning/AdaBoost/boosting_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="186" column="31" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="31" />
+        <state relative-caret-position="2625">
+          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/weights">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/predict_result">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/BasicLinearRegressionTrain/model_predict_result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3750">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+          <folding>
+            <element signature="e#44#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/final_result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/feature_file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnsembleLearning/RandomForest/basic_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/basic_linear_regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/BasicLinearRegressionTrain/weights">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/local_weight_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/basic_linear_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="77" column="18" lean-forward="true" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

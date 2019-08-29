@@ -23,8 +23,8 @@ def loadDataSet(fileName):
 	return dataMat, labelMat
 
 if __name__ == '__main__':
-	dataArr, classLabels = loadDataSet('./Data/horseColicTraining2.txt')
-	testArr, testLabelArr = loadDataSet('./Data/horseColicTest2.txt')
+	dataArr, classLabels = loadDataSet('./BasicLinearRegressionData/horseColicTraining2.txt')
+	testArr, testLabelArr = loadDataSet('./BasicLinearRegressionData/horseColicTest2.txt')
 	bdt = AdaBoostClassifier(DecisionTreeClassifier(max_depth = 2), algorithm = "SAMME", n_estimators = 10)
 	bdt.fit(dataArr, classLabels)
 	predictions = bdt.predict(dataArr)

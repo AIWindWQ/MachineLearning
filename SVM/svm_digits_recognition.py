@@ -306,7 +306,7 @@ def testDigits(kTup=('rbf', 10)):
 	Returns:
 	    无
 	"""
-	dataArr, labelArr = loadImages('./Data/DigitRecognition/trainingDigits')
+	dataArr, labelArr = loadImages('./BasicLinearRegressionData/DigitRecognition/trainingDigits')
 	b, alphas = smoP(dataArr, labelArr, 200, 0.0001, 3, kTup)
 	datMat = np.mat(dataArr)
 	labelMat = np.mat(labelArr).transpose()
@@ -322,7 +322,7 @@ def testDigits(kTup=('rbf', 10)):
 		if np.sign(predict) != np.sign(labelArr[i]):
 			errorCount += 1
 	print("训练集错误率: %.2f%%" % (float(errorCount)/m))
-	dataArr, labelArr = loadImages('./Data/DigitRecognition/testDigits')
+	dataArr, labelArr = loadImages('./BasicLinearRegressionData/DigitRecognition/testDigits')
 	errorCount = 0
 	datMat = np.mat(dataArr)
 	labelMat = np.mat(labelArr).transpose()

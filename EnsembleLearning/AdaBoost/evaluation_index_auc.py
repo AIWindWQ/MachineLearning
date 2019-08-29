@@ -158,6 +158,6 @@ def plotROC(predStrengths, classLabels):
 
 
 if __name__ == '__main__':
-    dataArr, LabelArr = loadDataSet('./Data/horseColicTraining2.txt')
+    dataArr, LabelArr = loadDataSet('./BasicLinearRegressionData/horseColicTraining2.txt')
     weakClassArr, aggClassEst = adaBoostTrainDS(dataArr, LabelArr, 50)
     plotROC(aggClassEst.T, LabelArr)
