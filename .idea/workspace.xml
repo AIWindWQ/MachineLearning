@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52df1da7-5c8f-4197-9f75-e6700b8bb23a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/evaluation_index_auc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/horse_adaboost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/EnsembleLearning/AdaBoost/sklearn_adaboost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/kernel_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/kernel_svm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/svm_digit_recognition_with_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_digit_recognition_with_sklearn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/svm_digits_recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_digits_recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/svm_opt_smo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_opt_smo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVM/svm_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM/svm_simple.py" afterDir="false" />
-    </list>
+    <list default="true" id="52df1da7-5c8f-4197-9f75-e6700b8bb23a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +9,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/K-Means/kmeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +49,10 @@
         <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/basic_tree.py" />
         <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_test.py" />
         <option value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_train.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/ridge_regression_train.py" />
+        <option value="$PROJECT_DIR$/LinearRegression/ridge_regression_test.py" />
+        <option value="$PROJECT_DIR$/K-Means/kmeans.py" />
+        <option value="$PROJECT_DIR$/K-Means/kmeans++.py" />
       </list>
     </option>
   </component>
@@ -72,22 +77,6 @@
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="EnsembleLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicLinearRegressionTrain" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -111,8 +100,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.local_weight_regression">
-    <configuration name="basic_linear_regression_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kmeans++">
+    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-Means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-Means/kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic_linear_regression_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kmeans++" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-Means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/basic_linear_regression_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-Means/kmeans++.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridge_regression_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/RandomForest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/ridge_regression_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_forest_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridge_regression_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EnsembleLearning/RandomForest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinearRegression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EnsembleLearning/RandomForest/random_forest_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinearRegression/ridge_regression_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kmeans++" />
+        <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.ridge_regression_test" />
+        <item itemvalue="Python.ridge_regression_train" />
         <item itemvalue="Python.local_weight_regression" />
-        <item itemvalue="Python.basic_linear_regression_test" />
-        <item itemvalue="Python.basic_linear_regression_train" />
-        <item itemvalue="Python.random_forest_test" />
-        <item itemvalue="Python.random_forest_train" />
       </list>
     </recent_temporary>
   </component>
@@ -400,16 +389,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinearRegression/weights">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinearRegression/predict_result">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/weights" />
+    <entry file="file://$PROJECT_DIR$/LinearRegression/predict_result" />
     <entry file="file://$PROJECT_DIR$/LinearRegression/BasicLinearRegressionTrain/model_predict_result">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3750">
@@ -481,6 +462,71 @@
           <folding>
             <element signature="e#16#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/RidgeRegressionTrain/predict_result">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1550">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/ridge_regression_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/ridge_regression_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="219" column="23" lean-forward="true" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/Data/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/TrainingResult/kmeans++_center">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/TrainingResult/kmeans++_sub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/TrainingResult/sub">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/TrainingResult/center">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/kmeans++.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="e#59#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
